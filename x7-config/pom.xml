@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>x7</groupId>
 		<artifactId>x7</artifactId>
-		<version>0.5.7</version>
+		<version>0.5.7.RELEASE</version>
 	</parent>
 
 	<artifactId>x7-config</artifactId>
@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>x7</groupId>
 			<artifactId>x7-core</artifactId>
-			<version>0.5.7</version>
+			<version>0.5.7.RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -50,14 +50,5 @@
 
 	</dependencies>
 
-	<profiles>
-		<profile>
-			<!-- 本地环境 -->
-			<id>local</id>
-			<properties>
-
-			</properties>
-		</profile>
-	</profiles>
 
 </project>
