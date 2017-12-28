@@ -11,7 +11,7 @@
   <parent>
   	<groupId>x7</groupId>
   	<artifactId>x7</artifactId>
-  	<version>0.5.7</version>
+  	<version>0.5.7.RELEASE</version>
   </parent>
   	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,17 +28,17 @@
    		<dependency>
 			<groupId>x7</groupId>
 			<artifactId>x7-core</artifactId>
-			<version>0.5.7</version>
+			<version>0.5.7.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>x7</groupId>
 			<artifactId>x7-config</artifactId>
-			<version>0.5.7</version>
+			<version>0.5.7.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>x7</groupId>
 			<artifactId>x7-repository</artifactId>
-			<version>0.5.7</version>
+			<version>0.5.7.RELEASE</version>
 		</dependency>
     </dependencies>
 
