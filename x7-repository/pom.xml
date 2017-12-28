@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>x7</groupId>
 		<artifactId>x7</artifactId>
-		<version>0.5.7</version>
+		<version>0.5.7.RELEASE</version>
 	</parent>
 
 	<artifactId>x7-repository</artifactId>
@@ -60,14 +60,14 @@
 		<dependency>
 			<groupId>x7</groupId>
 			<artifactId>x7-core</artifactId>
-			<version>0.5.7</version>
+			<version>0.5.7.RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>x7</groupId>
 			<artifactId>x7-config</artifactId>
-			<version>0.5.7</version>
+			<version>0.5.7.RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -80,20 +80,9 @@
 
 	</dependencies>
 
-	<profiles>
-		<profile>
-			<!-- 本地环境 -->
-			<id>local</id>
-			<properties>
-
-			</properties>
-		</profile>
-	</profiles>
-
 
 	<build>
 		<plugins>
-			<!-- 指定多个源代码目录、多个资源文件目录 -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
