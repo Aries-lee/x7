@@ -15,7 +15,7 @@
 	<version>0.5.7.RELEASE</version>
 	<packaging>pom</packaging>
 	<name>x7-pom</name>
-	<description>x7 frame work pom config base on spring boot</description>
+	<description>x7 framework</description>
 
 	<modules>
 		<module>x7-core</module>
