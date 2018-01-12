@@ -90,7 +90,6 @@
 				<executions>
 					<execution>
 						<id>add-source</id>
-						<phase>generate-sources</phase>
 						<goals>
 							<goal>add-source</goal>
 						</goals>
@@ -98,6 +97,7 @@
 							<sources>
 								<source>src/main/java</source>
 								<source>redis/main/java</source>
+								<source>beankey</source>
 							</sources>
 						</configuration>
 					</execution>
