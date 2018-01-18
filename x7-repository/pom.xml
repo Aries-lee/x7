@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>x7</groupId>
 		<artifactId>x7</artifactId>
-		<version>${x7.version}</version>
+		<version>1.0.0.M</version>
 	</parent>
 
 	<artifactId>x7-repository</artifactId>
