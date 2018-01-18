@@ -373,7 +373,10 @@ public class DaoImpl implements Dao {
 					if (ele.isJson) {
 						String str = JsonX.toJson(value);
 						pstmt.setObject(i++, str);
-					} else {
+					} if (ele.clz.isEnum()){
+						String str = value.toString();
+						pstmt.setObject(i++, str);
+					}else {
 						value = SqlUtil.filter(value);
 						pstmt.setObject(i++, value);
 					}
